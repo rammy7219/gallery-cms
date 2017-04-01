@@ -21,13 +21,22 @@
                 //
                 // $user->create();
 
-                // $user = User::find_user_by_id(3);
-                // $user->last_name = "WILLIAMS";
-                //
-                // $user->update();
+                $user = User::find_user_by_id(6);
+                $user->username = "RAMSHAW";
 
-                $user = User::find_user_by_id(3);
-                $user->delete();
+                $user->update();
+
+                // $user = User::find_user_by_id(2);
+                // if (!empty($user))
+                // $user->delete();
+
+                // $user = User::find_user_by_id(6);
+                // $user->password = "justpassword";
+                // $user->save();
+
+                // $user = new User();
+                // $user->username = "WAYNE";
+                // $user->save();
 
               ?>
 
