@@ -12,19 +12,19 @@
 
               <?php
 
-                // $user = new User();
-                //
-                // $user->username = "Suave The Second";
-                // $user->password = "Rico Last Name";
-                // $user->first_name = "Rico";
-                // $user->last_name = "Suaves";
-                //
-                // $user->create();
+                $user = new User();
 
-                $user = User::find_user_by_id(6);
-                $user->username = "RAMSHAW";
+                $user->username = "Suave The Second";
+                $user->password = "Rico Last Name";
+                $user->first_name = "Rico";
+                $user->last_name = "Suaves";
 
-                $user->update();
+                $user->create();
+
+                // $user = User::find_user_by_id(6);
+                // $user->username = "RAMSHAW";
+                //
+                // $user->update();
 
                 // $user = User::find_user_by_id(2);
                 // if (!empty($user))
